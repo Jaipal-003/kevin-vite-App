@@ -1,8 +1,12 @@
+const primaryHeader =document.querySelector(".primary-header");
 const navToggle = document.querySelector(".mobile-nav-toggle");
-const primaryNav = ducument.querySelector(".primary-navigation")
+const primaryNav = ducument.querySelector(".primary-navigation");
 
-navToggle.addEventListener('click', () => {
-    primaryNav.hasAttribute("data-visible") ?  console.log("true") : console.log("it doesnt");
-    primaryNav.toggleAttribute("data-visible")
+
+navToggle.addEventListener("click", () => {
+    primaryNav.hasAttribute("data-visible") ? navToggle.setAttribute("aria-expanded" , false) : navToggle.setAttribute("aria-expanded" , true) 
+    primaryNav.toggleAttribute("data-visible");
+    primaryHeader.toggleAttribute("data-overlay");
+
 });
 

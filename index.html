@@ -6,25 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-<<<<<<< HEAD
   <title>Frontend Mentor | Manage landing page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
-=======
- <title>Frontend Mentor | Manage landing page</title>
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/style.css">
->>>>>>> c793cd144ceef2a30fd7cd0bc0875f65e8ddeb9b
+
 </head>
 
 <body>
   <header class="primary-header">
     <div class="container">
-<<<<<<< HEAD
       <div class="nav-wrapper">
         <a href="#"><img src="images/logo.svg" alt="Manage"></a>
         <button class="mobile-nav-toggle" aris-controls="primary-navigation" aria-expanded="false">
@@ -40,21 +32,8 @@
             <li><a href="#">Community</a></li>
           </ul>
         </nav>
-        <button class="button" style="display:none">Get Started</button>
+        <button class="button | display-sm-none display-md-inline-flex">Get Started</button>
       </div>
-=======
-      <a href="#"><img src="images/logo.svg" alt="Manage"></a>
-      <nav class="primary-navigation">
-        <ul aria-lebel="primary" role="list" class="nav-list">
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-        </ul>
-      </nav>
-      <button class="button">Get Started</button>
->>>>>>> c793cd144ceef2a30fd7cd0bc0875f65e8ddeb9b
     </div>
   </header>
 
@@ -62,7 +41,7 @@
     <section class="padding-block-900">
       <div class="container">
         <div class="even-columns">
-          <div>
+          <div class="flow">
             <h1 class="fs-primary-heading fw-bold">
               Bring everyone Together to build better products.
             </h1>
@@ -80,30 +59,39 @@
     <section class="padding-block-900">
       <div class="container">
         <div class="even-columns">
-          <div>
+          <div class="flow">
             <h2 class="fs-secondary-heading fw-bold">What's different about Mange?</h2>
             <p>Manage provides all the funtions tailor-mage needs without the complitily .our software is tailer-made
               for modern digital products terms for modern digital </p>
           </div>
           <div>
-            <ul class="numbered-items" role="list">
+            <ul class="numbered-items |  flow" role="list">
               <li>
-                <h3 class="fs-600 fw-bold">Track company-wide Progress</h3>
-                <p>
-                  Stop jumping from one serivices to another to communicate ,store files ,track tasks and share
-                  documents .Manages offre an all-in-one team productivity solution
-                </p>
+                <div class="flow" style="--flow-spacer:1em">
+                  <h3 class="fs-600 fw-bold">Track company-wide Progress</h3>
+                  <p data-width="wide">
+                    Stop jumping from one serivices to another to communicate ,store files ,track tasks and share
+                    documents .Manages offre an all-in-one team productivity solution
+                  </p>
+                </div>
               </li>
               <li>
-                <h3 class="fs-600 fw-bold">Advanced built-in reports</h3>
-                <p>See how you day to day tasks tit into the wider vissin.Go from tracking progress at the milestone
-                  level all the way done to the smallest of details .Never lose sight of the bigger picture again</p>
+                <div class="flow" style="--flow-spacer:1em">
+                  <h3 class="fs-600 fw-bold">Advanced built-in reports</h3>
+                  <p data-width="wide">See how you day to day tasks tit into the wider vissin.Go from tracking progress
+                    at the milestone
+                    level all the way done to the smallest of details .Never lose sight of the bigger picture again</p>
+                </div>
               </li>
               <li>
-                <h3 class="fs-600 fw-bold">Everything you need in one place</h3>
-                <p>Set internal delivary estimates and traack progress toward company goals .Our cuustomisable helps oyu
-                  build out the report you need to keep key stakeholders informed
-                </p>
+                <div class="flow" style="--flow-spacer:1em">
+                  <h3 class="fs-600 fw-bold">Everything you need in one place</h3>
+                  <p data-width="wide">Set internal delivary estimates and traack progress toward company goals .Our
+                    cuustomisable helps
+                    oyu
+                    build out the report you need to keep key stakeholders informed
+                  </p>
+                </div>
               </li>
             </ul>
           </div>
@@ -118,13 +106,13 @@
 
     <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
       <div class="container">
-        <div class="even-columns">
+        <div class="even-columns vertical-align-center-md">
           <div>
-            <p class="fs-secondary-heading fw-bold">
+            <p class="fs-primary-heading fw-bold">
               Simplify how your team works today.
             </p>
           </div>
-          <div>
+          <div class="justify-self-end-md">
             <button class="button" data-type="inverted">Get Started</button>
           </div>
         </div>
@@ -132,36 +120,38 @@
     </section>
   </main>
   <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
-<<<<<<< HEAD
+
     <div class="container">
       <div class="even-columns">
         <div>
           <a href="#"><img src="images/logo.svg" alt="Manage"></a>
-          <ul role="list" aris-label="Social links">
-            <li><a aria-label="facebook" href="#"></a></li>
-            <li><a aria-label="youtube" href="#"></a></li>
-            <li><a aria-label="twitter" href="#"></a></li>
-            <li><a aria-label="pinterest" href="#"></a></li>
-            <li><a aria-label="instragram" href="#"></a></li>
+          <ul class="social-list" role="list" aris-label="Social links">
+            <li><a aria-label="facebook" href="#">
+              <svg class="social-icon">
+                  <use xlink:href="../images/social-icons.svg#icon-facebook"></use>
+                </svg></a>
+              </li>
+            <li><a aria-label="youtube" href="#"><svg class="social-icon">
+                  <use xlink:href="../images/social-icons.svg#icon-youtube"></use>
+                </svg></a>
+              </li>
+            <li><a aria-label="twitter" href="#"><svg class="social-icon">
+                  <use xlink:href="../images/social-icons.svg#icon-twitter"></use>
+                </svg></a>
+              </li>
+            <li><a aria-label="pinterest" href="#"><svg class="social-icon">
+                  <use xlink:href="../images/social-icons.svg#icon-pinterest"></use>
+                </svg></a>
+              </li>
+            <li><a aria-label="instagram" href="#"><svg class="social-icon">
+                  <use xlink:href="../images/social-icons.svg#icon-instagram"></use>
+                </svg></a>
+              </li>
           </ul>
-=======
-  <div class="container">
-    <div class="even-columns">
-      <div>
-        <a href="#"><img src="images/logo.svg" alt="Manage"></a>
-        <ul role="list" aris-label="Social links">
-         <li><a aria-label="facebook" href="#"></a></li>
-         <li><a aria-label="youtube" href="#"></a></li>
-         <li><a aria-label="twitter" href="#"></a></li>
-         <li><a aria-label="pinterest" href="#"></a></li>
-         <li><a aria-label="instragram" href="#"></a></li>
-        </ul>
->>>>>>> c793cd144ceef2a30fd7cd0bc0875f65e8ddeb9b
-
         </div>
         <div>
           <nav class="footer-nav">
-            <ul aria-lebel="Footer" role="list">
+            <ul class="flow" aria-lebel="Footer" role="list">
               <li><a href="#">Home</a></li>
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Products</a></li>
@@ -179,31 +169,9 @@
           </form>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-      <div>
-        <nav class="footer-nav">
-        <ul aria-lebel="Footer" role="list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-        </nav>
-      </div>
-      <div>
-        <form action="">
-         <input type="email"><button class="button">Get</button>
-         <p>Copyright 2022.All Rights Reserved</p>
-        </form>
-      </div>
->>>>>>> c793cd144ceef2a30fd7cd0bc0875f65e8ddeb9b
-    </div>
+
   </footer>
-<script src="/JS/index.js"></script>
+  <script src="/JS/index.js"></script>
 </body>
 
 </html>
